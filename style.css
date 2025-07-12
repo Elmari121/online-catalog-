@@ -1,0 +1,117 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #ffdee9;
+ 
+  padding: 20px;
+  text-align: center;
+  background: radial-gradient(circle at 10% 20%, rgb(178, 178, 212) 0%, rgb(253, 222, 249) 79.5%);
+}
+
+h1 {
+ margin: 0 0 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 70%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  background-color: #dd7bf6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#searchBtn:hover {
+  background-color: #d038fa;
+}
+
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 1.1em;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.price {
+  color: #e91e63;
+  font-weight: bold;
+}
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E;
+}
