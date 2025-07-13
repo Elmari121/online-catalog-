@@ -2,10 +2,10 @@ const yourWhatsAppNumber = "27639440527"; // Replace with your real number
 
 const products = [
   {
-    name: "Rose Glow Serum",
-    price: "R249",
-    description: "Hydrates and brightens your skin naturally.",
-    image: "https://via.placeholder.com/200x200.png?text=Rose+Glow+Serum"
+    name: "Poly Gel Nail Kit",
+    price: "R180",
+    description: "Poly Gel Nail Kit with 3 colors, and sculpting tool.",
+    image: "image/poly-gel-kit.jpg"
   },
   {
     name: "Hair Growth Oil",
